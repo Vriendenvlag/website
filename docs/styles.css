@@ -5,6 +5,9 @@
   }
     
 .hero-banner {
-  margin: auto;
+  margin: -65px 0 0 0;
   text-align: center;
+  padding: 20px;
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(0,212,255,1) 100%);
 }

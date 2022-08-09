@@ -1,6 +1,6 @@
 ---
 pagetitle: "Vriendenvlag"
-page-layout: full
+page-layout: custom
 toc: false
 anchor-sections: false
 format:
