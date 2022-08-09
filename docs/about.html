@@ -118,32 +118,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 }</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script>
-  var tl = anime.timeline({
-});
-
-tl
-.add({
-  targets: '#vierkant',
-  rotate: ['45deg', '405deg'],
-  loop: true,
-  delay: 1000,
-  scale: [0, .8],
-  duration: 8000
-})
-.add({
-  targets: '#v, #vlag, #stok',
-  opacity: [0,1],
-  duration: 3000
-}, '-=3000')
-.add({
-  targets: '#vlag',
-  translateY: [36,0],
-  duration: 2000,
-  easing: 'linear'
-}, '-=3000');
-</script>
-
 
 <link rel="stylesheet" href="styles.css">
 </head>
