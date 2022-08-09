@@ -5,9 +5,17 @@
   }
     
 .hero-banner {
-  margin: -65px 0 0 0;
+  margin: 0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
   text-align: center;
   padding: 20px;
   background: rgb(255,255,255);
 background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+svg {
+  margin-top: 50px;
 }
