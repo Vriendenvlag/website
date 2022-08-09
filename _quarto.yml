@@ -15,6 +15,9 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    include-in-header:
+      - vlag_animatie.html
+
 
 
 
