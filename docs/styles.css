@@ -1,12 +1,6 @@
 /* css styles */
 
 #vierkant {
-    transform-origin: center;
+  transform-origin: center;
   }
     
-.content {
-  max-width: 500px;
-  margin: auto;
-  background-color: lightgrey;
-  text-align: center;
-}
