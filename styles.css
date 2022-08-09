@@ -4,3 +4,7 @@
   transform-origin: center;
   }
     
+.hero-banner {
+  margin: auto;
+  text-align: center;
+}
