@@ -1,0 +1,25 @@
+<script>
+  var tl = anime.timeline({
+});
+
+tl
+.add({
+  targets: '#vierkant',
+  rotate: ['45deg', '405deg'],
+  loop: true,
+  delay: 1000,
+  scale: [0, .8],
+  duration: 8000
+})
+.add({
+  targets: '#v, #vlag, #stok',
+  opacity: [0,1],
+  duration: 3000
+}, '-=3000')
+.add({
+  targets: '#vlag',
+  translateY: [36,0],
+  duration: 2000,
+  easing: 'linear'
+}, '-=3000');
+</script>
