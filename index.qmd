@@ -17,5 +17,31 @@ format:
   
 Binnenkort de totaal vernieuwde website! We zijn er mee bezig
 
+
+
+::: {.content-block}
+
+:::: {.container}
+
+::: {.col-md-4 .box}
+# Onze websites
+
+* [Leon's website](https://leonlindnerweb.wordpress.com)
+* [Tomas' website]()
 :::
 
+::: {.col-md-4 .box}
+# Poll
+
+Vul hier onze poll in
+:::
+
+::: {.col-md-4 .box}
+# Berichten
+:::
+
+::::
+
+:::
+
+:::

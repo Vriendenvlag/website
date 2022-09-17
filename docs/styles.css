@@ -19,3 +19,20 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
 svg {
   margin-top: 50px;
 }
+
+.content-block {
+  border: 3px solid red;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+.box {
+  border: 1px solid black;
+  background-color: white;
+  margin: 5px;
+  width: 20%;
+  height: 300px;
+  float: left;
+}
+
