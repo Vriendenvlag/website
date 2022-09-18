@@ -22,20 +22,20 @@ Binnenkort de totaal vernieuwde website! We zijn er mee bezig
 
 :::: {.grid}
 
-::: {.g-col-4 .box .rounded-3}
+::: {.g-col-md-4 .box .rounded-3}
 # Onze websites
 
 * [Leon's website](https://leonlindnerweb.wordpress.com)
 * [Tomas' website]()
 :::
 
-::: {.g-col-4 .box .rounded-3}
+::: {.g-col-md-4 .box .rounded-3}
 # Poll
 
 Vul hier onze poll in
 :::
 
-::: {.g-col-4 .box .rounded-3}
+::: {.g-col-md-4 .box .rounded-3}
 # Berichten
 :::
 
