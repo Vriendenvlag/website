@@ -21,22 +21,22 @@ Binnenkort de totaal vernieuwde website! We zijn er mee bezig
 
 ::: {.content-block}
 
-:::: {.container}
+:::: {.grid}
 
-::: {.col-md-4 .box}
+::: {.g-col-4 .box}
 # Onze websites
 
 * [Leon's website](https://leonlindnerweb.wordpress.com)
 * [Tomas' website]()
 :::
 
-::: {.col-md-4 .box}
+::: {.g-col-4 .box}
 # Poll
 
 Vul hier onze poll in
 :::
 
-::: {.col-md-4 .box}
+::: {.g-col-4 .box}
 # Berichten
 :::
 
@@ -44,4 +44,4 @@ Vul hier onze poll in
 
 :::
 
-:::
+::: 

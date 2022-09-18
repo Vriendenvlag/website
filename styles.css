@@ -21,7 +21,6 @@ svg {
 }
 
 .content-block {
-  border: 3px solid red;
   width: 80%;
   margin: auto;
   justify-content: center;
@@ -30,9 +29,6 @@ svg {
 .box {
   border: 1px solid black;
   background-color: white;
-  margin: 5px;
-  width: 20%;
   height: 300px;
-  float: left;
 }
 
