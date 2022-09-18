@@ -1,9 +1,15 @@
 ---
-title: "About"
+title: "Over ons"
+about:
+  template: jolla
+  image: vriendenvlag.svg
+  links:
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/channel/UCcKCdGh91gJBPxvPfW-ftjw
+    - icon: github
+      text: Github
+      href: https://github.com/Vriendenvlag
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+Wij zijn de jonge website bouwers.
