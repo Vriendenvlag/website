@@ -23,6 +23,7 @@ svg {
 .content-block {
   width: 80%;
   margin: auto;
+  margin-top: 50px;
   justify-content: center;
 }
 

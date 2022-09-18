@@ -7,8 +7,6 @@ website:
   navbar:
     background: transparent
     left:
-      - href: index.qmd
-        text: Home
       - about.qmd
 
 format:
