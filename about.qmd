@@ -13,3 +13,24 @@ about:
 ---
 
 Wij zijn de jonge website bouwers.
+
+::: {.card style="width:300px;"}
+
+![](images/pexels-alex-knight-2599244.jpg){.card-img-top}
+
+::: {.card-body}
+
+##### Vriendenvlag {.card-title}
+
+::: {.card-text}
+
+Mijn tekst komt hier te staan en is echt heel tof. 
+
+:::
+
+[Klik hier](){.btn .btn-primary}
+[of hier](){.btn .btn-primary}
+
+:::
+
+:::
