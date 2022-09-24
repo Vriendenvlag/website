@@ -9,7 +9,9 @@ format:
       - vlag_animatie.html
 ---
 
-::: {.hero-banner}
+:::: {.column-body}
+
+::: {.column-screen .text-center #hero}
 
 {{< include vriendenvlag.svg >}}
 
@@ -17,30 +19,68 @@ format:
   
 Binnenkort de totaal vernieuwde website! We zijn er mee bezig
 
-
-::: {.content-block}
-
-:::: {.grid}
-
-::: {.g-col-md-4 .box .rounded-3}
-# Onze websites
-
-* [Leon's website](https://leonlindnerweb.wordpress.com)
-* [Tomas' website]()
 :::
 
-::: {.g-col-md-4 .box .rounded-3}
-# Poll
+<!-- content -->
 
-Vul hier onze poll in
+::: {.column-page .mx-auto}
+
+::: {.grid}
+
+::: {.g-col-md-6 }
+
+::: {.card style="width:300px;" .rounded-3 .mx-auto}
+
+![](images/pexels-alex-knight-2599244.jpg){.card-img-top}
+
+::: {.card-body}
+
+##### Vriendenvlag {.card-title}
+
+::: {.card-text}
+
+Mijn tekst komt hier te staan en is echt heel tof. 
+
 :::
 
-::: {.g-col-md-4 .box .rounded-3}
-# Berichten
+[Klik hier](){.btn .btn-primary}
+[of hier](){.btn .btn-primary}
+
+:::
+
+:::
+
+:::
+
+<!-- New card --> 
+
+::: {.g-col-md-6 }
+
+::: {.card style="width:300px;" .rounded-3 .mx-auto}
+
+![](images/pexels-lenin-estrada-2103864.jpg){.card-img-top}
+
+::: {.card-body}
+
+##### Vriendenvlag {.card-title}
+
+::: {.card-text}
+
+Mijn tekst komt hier te staan en is echt heel tof. 
+
+:::
+
+[Klik hier](){.btn .btn-primary}
+[of hier](){.btn .btn-primary}
+
+:::
+
+:::
+
+:::
+
+:::
+
 :::
 
 ::::
-
-:::
-
-::: 
