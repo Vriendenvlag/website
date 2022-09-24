@@ -16,13 +16,9 @@ Wij zijn de jonge website bouwers.
 
 ::: {.grid}
 
-::: {.container}
+::: {.g-col-md-6}
 
-::: {.row}
-
-::: {.col}
-
-::: {.card style="width:300px;"}
+::: {.card style="width:300px;" .rounded-3}
 
 ![](images/pexels-alex-knight-2599244.jpg){.card-img-top}
 
@@ -47,7 +43,7 @@ Mijn tekst komt hier te staan en is echt heel tof.
 
 <!-- New card --> 
 
-::: {.col}
+::: {.g-col-md-6}
 
 ::: {.card style="width:300px;"}
 
@@ -65,10 +61,6 @@ Mijn tekst komt hier te staan en is echt heel tof.
 
 [Klik hier](){.btn .btn-primary}
 [of hier](){.btn .btn-primary}
-
-:::
-
-:::
 
 :::
 
