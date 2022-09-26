@@ -1,6 +1,6 @@
 ---
 pagetitle: "Vriendenvlag"
-page-layout: custom
+page-layout: full
 toc: false
 anchor-sections: false
 format:
@@ -27,9 +27,9 @@ Binnenkort de totaal vernieuwde website! We zijn er mee bezig
 
 ::: {.grid}
 
-::: {.g-col-md-6 }
+::: {.g-col-md-4 }
 
-::: {.card style="width:300px;" .rounded-3 .mx-auto}
+::: {.card .rounded-3 .mx-auto}
 
 ![](images/pexels-alex-knight-2599244.jpg){.card-img-top}
 
@@ -54,11 +54,38 @@ Mijn tekst komt hier te staan en is echt heel tof.
 
 <!-- New card --> 
 
-::: {.g-col-md-6 }
+::: {.g-col-md-4 }
 
-::: {.card style="width:300px;" .rounded-3 .mx-auto}
+::: {.card .rounded-3 .mx-auto}
 
-![](images/pexels-lenin-estrada-2103864.jpg){.card-img-top}
+![](images/pexels-alex-knight-2599244.jpg){.card-img-top}
+
+::: {.card-body}
+
+##### Vriendenvlag {.card-title}
+
+::: {.card-text}
+
+Mijn tekst komt hier te staan en is echt heel tof. 
+
+:::
+
+[Klik hier](){.btn .btn-primary}
+[of hier](){.btn .btn-primary}
+
+:::
+
+:::
+
+:::
+
+<!-- New card --> 
+
+::: {.g-col-md-4 }
+
+::: {.card .rounded-3 .mx-auto}
+
+![](images/pexels-alex-knight-2599244.jpg){.card-img-top}
 
 ::: {.card-body}
 
@@ -84,3 +111,13 @@ Mijn tekst komt hier te staan en is echt heel tof.
 :::
 
 ::::
+
+# Test 1
+
+Hier plaatsen we ook nog wat tekst.
+
+Met wat bullets
+
+* 1
+* 2
+* en 3
