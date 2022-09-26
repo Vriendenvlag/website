@@ -12,7 +12,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: style2.scss
+    css: style2.css
     toc: true
     include-in-header:
       - animejs.html
