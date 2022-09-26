@@ -31,7 +31,6 @@ Binnenkort de totaal vernieuwde website! We zijn er mee bezig
 
 ::: {.card .rounded-3 .mx-auto}
 
-![](images/pexels-alex-knight-2599244.jpg){.card-img-top}
 
 ::: {.card-body}
 
@@ -84,8 +83,6 @@ Mijn tekst komt hier te staan en is echt heel tof.
 ::: {.g-col-md-4 }
 
 ::: {.card .rounded-3 .mx-auto}
-
-![](images/pexels-alex-knight-2599244.jpg){.card-img-top}
 
 ::: {.card-body}
 
@@ -121,3 +118,11 @@ Met wat bullets
 * 1
 * 2
 * en 3
+
+::: {.fixed-bottom}
+
+<button type="button" class="btn btn-primary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+  Feedback
+</button>
+
+:::
