@@ -34,16 +34,16 @@ Binnenkort de totaal vernieuwde website! We zijn er mee bezig
 
 ::: {.card-body}
 
-##### Vriendenvlag {.card-title}
+##### Onze websites {.card-title}
 
 ::: {.card-text}
 
-Mijn tekst komt hier te staan en is echt heel tof. 
+Dit zijn de websites van onze leden.
 
 :::
 
-[Klik hier](){.btn .btn-primary}
-[of hier](){.btn .btn-primary}
+[Leon's website](https://leonlindnerweb.wordpress.com){.btn .btn-primary}
+[Tomas' website](){.btn .btn-primary}
 
 :::
 
@@ -109,15 +109,7 @@ Mijn tekst komt hier te staan en is echt heel tof.
 
 ::::
 
-# Test 1
 
-Hier plaatsen we ook nog wat tekst.
-
-Met wat bullets
-
-* 1
-* 2
-* en 3
 
 ::: {.fixed-bottom}
 

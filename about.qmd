@@ -70,7 +70,4 @@ Mijn tekst komt hier te staan en is echt heel tof.
 
 :::
 
-# Onze websites
 
-* [Leon's website](https://leonlindnerweb.wordpress.com)
-* [Tomas' website]()
