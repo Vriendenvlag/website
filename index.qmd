@@ -65,12 +65,13 @@ Dit zijn de websites van onze leden.
 
 ::: {.card-text}
 
-Mijn tekst komt hier te staan en is echt heel tof. 
+Wie weet wat hier staat?
+fuv ut csuetdoopt
+TIP: Gebruik de Brioscaans vertaler!
 
 :::
 
-[Klik hier](){.btn .btn-primary}
-[of hier](){.btn .btn-primary}
+[Vertaler](Brioscaans-vertaler.Rmd){.btn .btn-primary}
 
 :::
 
