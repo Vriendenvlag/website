@@ -71,7 +71,7 @@ TIP: Gebruik de Brioscaans vertaler!
 
 :::
 
-[Vertaler](Brioscaans-vertaler.Rmd){.btn .btn-primary}
+[Wat staat er?](mailto:vriendenvlag@gmail.com){.btn .btn-primary}
 
 :::
 
