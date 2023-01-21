@@ -61,7 +61,7 @@ Dit zijn de websites van onze leden.
 
 ::: {.card-body}
 
-##### Vriendenvlag {.card-title}
+##### Vraagje {.card-title}
 
 ::: {.card-text}
 
@@ -71,7 +71,7 @@ TIP: Gebruik de Brioscaans vertaler!
 
 :::
 
-[Wat staat er?](mailto:vriendenvlag@gmail.com){.btn .btn-primary}
+[Wat staat er?](mailto:vriendenvlag@gmail.com?subject=Wat staat hier){.btn .btn-primary}
 
 :::
 
