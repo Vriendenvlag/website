@@ -1,19 +1,4 @@
----
-title: "Brioscaans vertaler"
-author: "Tomas"
-date: '2022-10-16'
-output: html_document
----
-
-<textarea id="input" oninput="myInput('input', 'output')" rows"20" cols="50"></textarea>
-
-<textarea id="output" rows"20" cols="50"></textarea>
-
-<script>
-
-function myInput(input, output){
-
- const vertaler = Array(27).fill().map(() => Array(2).fill(null));
+const vertaler = Array(27).fill().map(() => Array(2).fill(null));
 
 const klinkers = ['a','o','e','i','u'];
 const medeklinkers = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'];
@@ -29,7 +14,7 @@ vertaler.slice(0, 21).forEach((e, i) => e[1] = brioscaansMedeklinkers[i]);
 
 vertaler.push([" ", " "]);
 
-const tekstIn = document.getElementById(input).value;
+const tekstIn = "Sharon";
 let vertaald = "";
 
 const brioscaansVertaler = (tekstIn) => {
@@ -46,9 +31,3 @@ const brioscaansVertaler = (tekstIn) => {
 }
 console.log(brioscaansVertaler(tekstIn));
 console.log(brioscaansVertaler(""));
-
-document.getElementById(output).innerHTML = brioscaansVertaler("");
-
-}
-
-</script>

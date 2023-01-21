@@ -1,0 +1,20 @@
+---
+title: "Brioscaans vertaler"
+author: "Tomas"
+date: '2022-10-16'
+output: html_document
+---
+
+<textarea id="input" oninput="myInput('input', 'output')" rows"20" cols="50"></textarea>
+
+<div id="output"></div>
+
+<script>
+function myInput(input, output){
+var y = document.getElementById(input).value;
+
+//y = y.charCodeAt(0) - 97;
+
+  document.getElementById(output).innerHTML = y;
+}
+</script>

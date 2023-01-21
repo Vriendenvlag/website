@@ -3,7 +3,9 @@
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.80">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Vriendenvlag</title>
+  <meta name="author" content="Tomas">
+  <meta name="dcterms.date" content="2022-10-16">
+  <title>Vriendenvlag - Brioscaans vertaler</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -23,6 +25,7 @@
   <script src="site_libs/quarto-html/quarto.js"></script>
   <script src="site_libs/quarto-html/popper.min.js"></script>
   <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+  <script src="site_libs/quarto-html/anchor.min.js"></script>
   <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
   <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
   <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -53,7 +56,7 @@
   <![endif]-->
   <link rel="stylesheet" href="style2.css">
 </head>
-<body>
+<body class="fullcontent">
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
@@ -76,70 +79,74 @@
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full column-body" id="quarto-document-content">
-<div class="column-body page-columns page-full">
-<div id="hero" class="column-screen text-center">
-<p>{{&lt; include vriendenvlag.svg &gt;}}</p>
-<p>{{&lt; include vlag_animatie.html &gt;}}</p>
-<p>Binnenkort de totaal vernieuwde website! We zijn er mee bezig</p>
-</div>
-<!-- content -->
-<div class="column-page mx-auto">
-<div class="grid">
-<div class="g-col-12 g-col-md-6 g-col-lg-4">
-<div class="card rounded-3 mx-auto">
-<section id="onze-websites" class="level5 card-title card-body">
-<h5 class="card-title" data-anchor-id="onze-websites">Onze websites</h5>
-<div class="card-text">
-<p>Dit zijn de websites van onze leden.</p>
-</div>
-<p><a href="https://leonlindnerweb.wordpress.com" class="btn btn-primary">Leon’s website</a> <a href="" class="btn btn-primary">Tomas’ website</a></p>
-</section>
-</div>
-</div>
-<!-- New card -->
-<div class="g-col-12 g-col-md-6 g-col-lg-4">
-<div class="card rounded-3 mx-auto">
-<p><img src="images/pexels-alex-knight-2599244.jpg" class="card-img-top img-fluid"></p>
-<section id="vriendenvlag" class="level5 card-title card-body">
-<h5 class="card-title" data-anchor-id="vriendenvlag">Vriendenvlag</h5>
-<div class="card-text">
-<p>Mijn tekst komt hier te staan en is echt heel tof.</p>
-</div>
-<p><a href="" class="btn btn-primary">Klik hier</a> <a href="" class="btn btn-primary">of hier</a></p>
-</section>
-</div>
-</div>
-<!-- New card -->
-<div class="g-col-12 g-col-md-6 g-col-lg-4">
-<div class="card rounded-3 mx-auto">
-<section id="vriendenvlag-1" class="level5 card-title card-body">
-<h5 class="card-title" data-anchor-id="vriendenvlag-1">Vriendenvlag</h5>
-<div class="card-text">
-<p>Mijn tekst komt hier te staan en is echt heel tof.</p>
-</div>
-<p><a href="" class="btn btn-primary">Klik hier</a> <a href="" class="btn btn-primary">of hier</a></p>
-</section>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="fixed-bottom">
-<button type="button" class="btn btn-primary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
-Feedback
-</button>
-</div>
+<main class="content" id="quarto-document-content">
+<header id="title-block-header" class="quarto-title-block default">
+
+
+
+<div class="quarto-title"><h1 class="title display-7">Brioscaans vertaler</h1></div><div class="quarto-title-meta"><div><div class="quarto-title-meta-heading">Author</div><div class="quarto-title-meta-contents"><div class="quarto-title-authors"><p>Tomas</p></div></div></div><div><div class="quarto-title-meta-heading">Published</div><div class="quarto-title-meta-contents"><p class="date">October 16, 2022</p></div></div></div></header>
+<textarea id="input" oninput="myInput('input', 'output')" rows"20"="" cols="50"></textarea>
+<textarea id="output" rows"20"="" cols="50"></textarea>
+<script>
+
+function myInput(input, output){
+
+ const vertaler = Array(27).fill().map(() => Array(2).fill(null));
+
+const klinkers = ['a','o','e','i','u'];
+const medeklinkers = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'];
+
+vertaler.slice(0, 21).forEach((e, i) => e[0] = medeklinkers[i]);
+vertaler.slice(21, 26).forEach((e, i) => e[0] = klinkers[i]);
+
+const brioscaansKlinkers = [...klinkers.slice(1, 5), klinkers[0]];
+const brioscaansMedeklinkers = [...medeklinkers.slice(1, 21), medeklinkers[0]];
+
+vertaler.slice(21, 26).forEach((e, i) => e[1] = brioscaansKlinkers[i]);
+vertaler.slice(0, 21).forEach((e, i) => e[1] = brioscaansMedeklinkers[i]);
+
+vertaler.push([" ", " "]);
+
+const tekstIn = document.getElementById(input).value;
+let vertaald = "";
+
+const brioscaansVertaler = (tekstIn) => {
+  tekstIn = tekstIn.toLowerCase();
+
+  const splitLetters = [...tekstIn];
+
+  for (let l of splitLetters) {
+    vertaald += vertaler.find(e => e[0] === l)[1];
+  }
+
+  const tekstUit = vertaald;
+  return tekstUit;
+}
+console.log(brioscaansVertaler(tekstIn));
+console.log(brioscaansVertaler(""));
+
+document.getElementById(output).innerHTML = brioscaansVertaler("");
+
+}
+
+</script>
 
 
 </main> <!-- /main -->
 <script type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
