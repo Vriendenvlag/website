@@ -5,9 +5,9 @@ date: '2022-10-16'
 output: html_document
 ---
 
-<textarea id="input" oninput="myInput('input', 'output')" rows"20" cols="50"></textarea>
+<textarea id="input" oninput="myInput('input', 'output')" style="width: 100%;" cols="50"></textarea>
 
-<textarea id="output" rows"20" cols="50"></textarea>
+<textarea id="output" style="width: 100%;" cols="50"></textarea>
 
 <script>
 

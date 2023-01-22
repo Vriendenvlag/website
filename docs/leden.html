@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tomas">
-<meta name="dcterms.date" content="2022-10-16">
 
-<title>Vriendenvlag - Brioscaans vertaler</title>
+<title>Vriendenvlag - Leden</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,26 +102,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Brioscaans vertaler</h1>
+<h1 class="title">Leden</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Tomas </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 16, 2022</p>
-    </div>
-  </div>
   
     
   </div>
@@ -131,51 +117,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<textarea id="input" oninput="myInput('input', 'output')" style="width: 100%;" cols="50"></textarea>
-<textarea id="output" style="width: 100%;" cols="50"></textarea>
-<script>
-
-function myInput(input, output){
-
- const vertaler = Array(27).fill().map(() => Array(2).fill(null));
-
-const klinkers = ['a','o','e','i','u'];
-const medeklinkers = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'];
-
-vertaler.slice(0, 21).forEach((e, i) => e[0] = medeklinkers[i]);
-vertaler.slice(21, 26).forEach((e, i) => e[0] = klinkers[i]);
-
-const brioscaansKlinkers = [...klinkers.slice(1, 5), klinkers[0]];
-const brioscaansMedeklinkers = [...medeklinkers.slice(1, 21), medeklinkers[0]];
-
-vertaler.slice(21, 26).forEach((e, i) => e[1] = brioscaansKlinkers[i]);
-vertaler.slice(0, 21).forEach((e, i) => e[1] = brioscaansMedeklinkers[i]);
-
-vertaler.push([" ", " "]);
-
-const tekstIn = document.getElementById(input).value;
-let vertaald = "";
-
-const brioscaansVertaler = (tekstIn) => {
-  tekstIn = tekstIn.toLowerCase();
-
-  const splitLetters = [...tekstIn];
-
-  for (let l of splitLetters) {
-    vertaald += vertaler.find(e => e[0] === l)[1];
-  }
-
-  const tekstUit = vertaald;
-  return tekstUit;
-}
-console.log(brioscaansVertaler(tekstIn));
-console.log(brioscaansVertaler(""));
-
-document.getElementById(output).innerHTML = brioscaansVertaler("");
-
-}
-
-</script>
+<iframe style="border: solid 1px red" src="http://www.appsheet.com/start/68dea7a2-c88d-41e9-a230-41877c6b94f7/" title="Leden">
+</iframe>
 
 
 
